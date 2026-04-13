@@ -17,12 +17,12 @@ export const siteNavItems: readonly SiteNavEntry[] = [
     label: "PROJECTS",
     href: "/#projects",
     children: [
-      { href: "/software", label: "SOFTWARE" },
-      { href: "/hardware", label: "HARDWARE" },
-      { href: "/ai", label: "AI" },
-      { href: "/3D", label: "3D PRINTING" },
+      { href: "/#software", label: "SOFTWARE" },
+      { href: "/#hardware", label: "HARDWARE" },
+      { href: "/#ai", label: "AI" },
+      { href: "/#3D", label: "3D PRINTING" },
     ],
   },
-  { type: "link", href: "/blog", label: "BLOG" },
+  { type: "link", href: "/#blog", label: "BLOG" },
   { type: "link", href: "/#contact", label: "CONTACT" },
 ];
